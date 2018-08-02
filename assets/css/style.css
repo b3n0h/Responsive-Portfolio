@@ -1,0 +1,115 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background: black;
+  color: white;
+  background: url(../images/la2.jpg) center / cover;
+  position: relative;
+  margin: 0px;
+  padding-left: 10px;
+  height: 100vh;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5); */
+}
+
+hr {
+  color: black;
+  clear: both;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+#grid {  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.links {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 3/4;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0px 10px 0px 10px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 1/4;
+  align-items: center;
+  border: solid 1px white;
+  background: black;
+}
+
+.mypicture {
+  grid-row: 2/3;
+}
+
+.aboutme {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+.portfolio {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.projects {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-row: 2/3;
+}
+
+.hangman {
+  display: grid;
+}
+
+.rpg {
+  display: grid;
+}
+
+.trivia {
+  display: grid;
+}
+
+.rutgers {
+  display: grid;
+}
+
+.rsp {
+  display: grid;
+  grid-row: 2/3;
+}
+
+.contactform {
+  display: grid;
+  grid-column: 1/3;
+}
