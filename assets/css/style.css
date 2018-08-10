@@ -34,7 +34,7 @@ hr {
 footer {
   display: grid;
   grid-column: 1/4;
-  grid-row: 4/5;
+  position: sticky;
   align-content: center;
   justify-content: center;
   background: black;
